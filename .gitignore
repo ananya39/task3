@@ -1,0 +1,27 @@
+# Node (Strapi)
+node_modules/
+build/
+.cache/
+dist/
+.env
+.env.*  # ignore environment-specific env files
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+terraform.tfstate.backup
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
